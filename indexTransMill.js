@@ -82,8 +82,9 @@ let indexhtml = `
 </header>
 <nav>
 	<ul>
+		<li><a href="https://stoehrstudio.com/about.html" id="homelink">go to river box press</a></li>
 		<li><a href="https://mctavish.work/index.html" id="homelink">go to mctavish portfolio</a></li>
-		<li><a href="#videoall">composite video</a></li>
+		<li><a href="#videoall">sample video</a></li>
 		<li><a href="#list">trans | figure sequences</a></li>
 		<!--<li><a href="#about">about</a></li>-->
 		<li><a href="conference.html">trans | figure annual conference</a></li>
@@ -94,13 +95,19 @@ let indexhtml = `
 </div>
 <article id="videoall">
 	<header>
-		<h1>composite video</h1>
+		<h1>sample video</h1>
 	</header>
 	<div id="content">
 	<figure>
+<video controls poster="https://storage.googleapis.com/bindery/mill20240320111334/poster9x9_0003.png">
+  <source src="https://storage.googleapis.com/bindery/mill20240320111334/film9x9_sound.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<!--
 	<div class="vimeowrapper16x9" >
 		<iframe src="https://player.vimeo.com/video/905046109?title=0&amp;byline=0&amp;portrait=0" width="600" height="338"frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div>
+	-->
 	</figure>
 	</div>
 </article>
@@ -149,10 +156,7 @@ indexhtml = indexhtml + `
 		<h1>project support</h1>
 	</header>
 	<div class="content">
-	<p>Kathy McTavish was a fiscal year 2023 recipient of a Creative Support for Individuals grant from the Minnesota State Arts Board. This activity was made possible by the voters of Minnesota through a grant from the Minnesota State Arts Board, thanks to a legislative appropriation from the arts and cultural heritage fund.</p>
-	<p><a href="https://quiltfactory.work">the quilt factory</a></p>
-	<p>see also: <a href="https://netfactory.work">the net factory</a></p>
-	<p>see also: <a href="https://clockfactory.work">the clock factory</a></p>
+		<p>trans | figure annual working conferences are funded by the blue window foundation.</p>
 	</div>
 </article>
 </main>
@@ -337,6 +341,7 @@ ${gsurl}/${mill.name}/film16x9_15sec_v_sound.mp4
 		<li><a href="printbook${mill.suffix}.html">html version</a></li>
 		<li><a href="${gsurl}/${mill.name}/printbook.pdf">illustrated book (pdf)</a></li>
 		<li><a href="${gsurl}/${mill.name}/printpicturebook.pdf">picture book (pdf)</a></li>
+		<li><a href="${gsurl}/${mill.name}/printpostcardbook.pdf">postcard book (pdf)</a></li>
 	</ul>
 	</div>
 </article>
@@ -372,28 +377,28 @@ ${gsurl}/${mill.name}/film16x9_15sec_v_sound.mp4
 		parent.appendChild(el);
 	}
 	let photos = [
-		{"filename": "picture003.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0003.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0003.png"},
-		{"filename": "picture004.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0004.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0004.png"},
-		{"filename": "picture005.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0005.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0005.png"},
-		{"filename": "picture006.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0006.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0006.png"},
-		{"filename": "picture007.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0007.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0007.png"},
-		{"filename": "picture008.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0008.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0008.png"},
-		{"filename": "picture009.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0009.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0009.png"},
-		{"filename": "picture010.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0010.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0010.png"},
-		{"filename": "picture011.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0011.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0011.png"},
-		{"filename": "picture012.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0012.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0012.png"},
-		{"filename": "picture013.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0013.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0013.png"},
-		{"filename": "picture014.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0014.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0014.png"},
-		{"filename": "picture015.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0015.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0015.png"},
-		{"filename": "picture016.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0016.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0016.png"},
-		{"filename": "picture017.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0017.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0017.png"},
-		{"filename": "picture018.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0018.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0018.png"},
-		{"filename": "picture019.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0019.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0019.png"},
-		{"filename": "picture020.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0020.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0020.png"},
-		{"filename": "picture021.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0021.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0021.png"},
-		{"filename": "picture022.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0022.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0022.png"},
-		{"filename": "picture023.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0023.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0023.png"},
-		{"filename": "picture024.jpg", "uri_small": "https://storage.googleapis.com/bindery/mill20240319140922/size400/picture0024.png", "uri_large": "https://storage.googleapis.com/bindery/mill20240319140922/picture0024.png"},
+		{"filename": "picture003.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0003.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0003.png"},
+		{"filename": "picture004.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0004.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0004.png"},
+		{"filename": "picture005.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0005.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0005.png"},
+		{"filename": "picture006.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0006.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0006.png"},
+		{"filename": "picture007.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0007.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0007.png"},
+		{"filename": "picture008.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0008.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0008.png"},
+		{"filename": "picture009.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0009.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0009.png"},
+		{"filename": "picture010.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0010.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0010.png"},
+		{"filename": "picture011.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0011.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0011.png"},
+		{"filename": "picture012.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0012.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0012.png"},
+		{"filename": "picture013.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0013.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0013.png"},
+		{"filename": "picture014.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0014.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0014.png"},
+		{"filename": "picture015.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0015.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0015.png"},
+		{"filename": "picture016.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0016.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0016.png"},
+		{"filename": "picture017.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0017.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0017.png"},
+		{"filename": "picture018.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0018.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0018.png"},
+		{"filename": "picture019.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0019.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0019.png"},
+		{"filename": "picture020.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0020.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0020.png"},
+		{"filename": "picture021.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0021.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0021.png"},
+		{"filename": "picture022.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0022.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0022.png"},
+		{"filename": "picture023.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0023.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0023.png"},
+		{"filename": "picture024.jpg", "uri_small": "https://storage.googleapis.com/bindery/${mill.name}/size400/picture0024.png", "uri_large": "https://storage.googleapis.com/bindery/${mill.name}/picture0024.png"},
 	];
 	window.addEventListener('load', e => {
 		let here = document.querySelector('#here');
