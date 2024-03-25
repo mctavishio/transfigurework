@@ -82,12 +82,14 @@ let indexhtml = `
 </header>
 <nav>
 	<ul>
-		<li><a href="https://stoehrstudio.com/about.html" id="homelink">go to river box press</a></li>
+		<li><a href="workinggroup.html">trans | figure working group</a></li>
 		<li><a href="https://mctavish.work/index.html" id="homelink">go to mctavish portfolio</a></li>
+		<li><a href="https://riverboxpress.com/" id="vallink">go to river box press</a></li>
+		<li><a href="https://wildwoodriver.com/" id="wrlink">go to wildwoodriver press</a></li>
+		<li><a href="https://datapoets.com/" id="datapoetslink">go to data poets</a></li>
 		<li><a href="#videoall">sample video</a></li>
 		<li><a href="#list">trans | figure sequences</a></li>
 		<!--<li><a href="#about">about</a></li>-->
-		<li><a href="conference.html">trans | figure annual conference</a></li>
 	</ul>
 </nav>
 <div class="screenreader-text">
